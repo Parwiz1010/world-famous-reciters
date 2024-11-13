@@ -1,0 +1,71 @@
+[33mcommit a5ddda2e614d3e0d6a1baebe676134b44f5a7d1e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 06:09:51 2024 -0800
+
+    change colors
+
+[33mcommit e8c22dd237fe68c361ba1d1e9113659d261e3d73[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 06:09:00 2024 -0800
+
+    change color
+
+[33mcommit 64ea56901250a4635952c12161066ab8e855b754[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 06:08:01 2024 -0800
+
+    change fontsize
+
+[33mcommit 34dd2dfb0ff5a30e9a9c9deb6a94f84a8c579cdc[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:58:21 2024 -0800
+
+    add color
+
+[33mcommit df1cdf3b934ba60c1286837da3e3c1092acf0cd3[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:57:27 2024 -0800
+
+    add fontweight
+
+[33mcommit 755e9475a8f039261ddedf5e6fa2605d508eed17[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:56:30 2024 -0800
+
+    add fontSize
+
+[33mcommit 1a9c602911844aed59b1326eacc4c09ffbc64fec[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:55:46 2024 -0800
+
+    add style
+
+[33mcommit c613c857eac782e730a75ea35913e9665736f1b7[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:42:51 2024 -0800
+
+    add Text
+
+[33mcommit 2f5baa5c57fa7505f1315e01b2d6709b8bbd8841[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:40:29 2024 -0800
+
+    remove library
+
+[33mcommit 2299c493a75fcc45a7462453a2c3f1fd66783a72[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:37:41 2024 -0800
+
+    remove statefulwidget
+
+[33mcommit 89c0e31b04e8b3778d1f09e0b8077442b65c4c4a[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:36:50 2024 -0800
+
+    add statefulwidget
+
+[33mcommit 9c526d644d62dee211acaa494a0c009e07bc8479[m
+Author: Parwiz Rahmani <parwiz@gmail.com>
+Date:   Wed Nov 13 05:33:57 2024 -0800
+
+    initial commit
