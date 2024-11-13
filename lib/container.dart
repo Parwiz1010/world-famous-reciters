@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_project/de.dart';
+
 import 'package:my_project/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
