@@ -4,7 +4,7 @@ import 'package:my_project/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
 
-double x = 0.0;
+double x = 10.0;
 void main(List<String> args) {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
