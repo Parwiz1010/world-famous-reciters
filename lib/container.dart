@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:my_project/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share_plus/share_plus.dart';
+
 double x = 0.0;
 void main(List<String> args) {
   runApp(MaterialApp(
@@ -56,7 +57,13 @@ class _splashState extends State<splash> {
               'خوش آمدید',
               style: TextStyle(fontSize: 30, color: Colors.blueGrey),
             ),
-            Text('V 0.2.3',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.blueGrey),)
+            Text(
+              'V 0.2.3',
+              style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blueGrey),
+            )
           ],
         ),
       ]),
@@ -84,7 +91,8 @@ class _myappState extends State<myapp> {
                 return [
                   PopupMenuItem(
                     onTap: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (c)=>share()));
+                      Navigator.push(
+                          context, MaterialPageRoute(builder: (c) => share()));
                     },
                     child: Text(
                       "Share",
@@ -93,7 +101,6 @@ class _myappState extends State<myapp> {
                       ),
                     ),
                   ),
-                 
                   PopupMenuItem(
                     child: Text(
                       "Exit",
@@ -135,7 +142,8 @@ class _myappState extends State<myapp> {
             },
             child: GestureDetector(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (c)=>slider()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (c) => slider()));
               },
               child: Container(
                 width: double.infinity,
@@ -203,8 +211,10 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/1.jpg'),
                     radius: 40,
                   ),
-                  Text('    قاری عبدالرحمن السدیس',
-                  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),)
+                  Text(
+                    '    قاری عبدالرحمن السدیس',
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  )
                 ],
               ),
             ),
@@ -227,7 +237,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/hq2.jpg'),
                     radius: 40,
                   ),
-                  Text('     قاری ماهر ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('     قاری ماهر ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -253,7 +265,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/3.jpg'),
                     radius: 40,
                   ),
-                  Text('    قاری عبدالعزیز',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('    قاری عبدالعزیز',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -279,7 +293,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download (5).jpg'),
                     radius: 40,
                   ),
-                  Text('    قاری عبدالرحمن العوسی',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('    قاری عبدالرحمن العوسی',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -305,7 +321,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download (6).jpg'),
                     radius: 40,
                   ),
-                  Text('     صالح بن عواد المغامسي ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('     صالح بن عواد المغامسي ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -331,7 +349,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download (11).jpg'),
                     radius: 40,
                   ),
-                  Text('      قاری احمد بن علی العحمی ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('      قاری احمد بن علی العحمی ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -357,7 +377,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download (10).jpg'),
                     radius: 40,
                   ),
-                  Text('      قاری عبدالمجید ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('      قاری عبدالمجید ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -383,7 +405,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download (9).jpg'),
                     radius: 40,
                   ),
-                  Text('      قاری عبدالله عوادالحهلی ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('      قاری عبدالله عوادالحهلی ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -409,7 +433,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download.jpg'),
                     radius: 40,
                   ),
-                  Text('      قاری سعودالسربم ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('      قاری سعودالسربم ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -435,7 +461,9 @@ class _myappState extends State<myapp> {
                     backgroundImage: AssetImage('images/download (7).jpg'),
                     radius: 40,
                   ),
-                  Text('        قاری محمد ',  style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                  Text('        قاری محمد ',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   SizedBox(
                     height: 1,
                   ),
@@ -495,7 +523,8 @@ class _abdulRahmanState extends State<abdulRahman> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری عبدالرحمن اسدیس یکی از مشهورترین قاریان قرآن کریم در دنیای اسلام است که صدای دلنشین و تلاوت‌های زیبا و بی‌نظیر او در سراسر جهان شناخته شده است. او متولد سال ۱۹۶۵ در تونس است و به عنوان یکی از برجسته‌ترین قاریان قرآن در دنیای عرب و مسلمان شناخته می‌شود.
 
 ویژگی‌های تلاوت قاری عبدالرحمن اسدیس:
@@ -568,7 +597,8 @@ class _qariMahirState extends State<qariMahir> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''
 قاری ماهر المعقلی یکی از مشهورترین قاریان قرآن در دنیای اسلام است که به خاطر صدای زیبا، تسلط به فنون تجوید و سبک منحصر به فرد تلاوتش شناخته می‌شود. او اهل عربستان سعودی است و به عنوان یکی از قاریان برجسته در مسجد الحرام (مکه) شناخته می‌شود.
 
@@ -647,7 +677,8 @@ class _qariAbdulAzizState extends State<qariAbdulAziz> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری عبدالعزیز به احتمال زیاد اشاره به قاری عبدالعزیز آل شیخ (Abdul Aziz Al-Sheikh) دارد که یکی از قاریان و شخصیت‌های مشهور در دنیای قرآن کریم است. البته باید گفت که نام "عبدالعزیز" ممکن است به قاریان مختلفی اطلاق شود، اما بیشترین شهرت را در میان قاریان قرآن به عبدالعزیز آل شیخ داریم که هم در حوزه تلاوت و هم در دیگر زمینه‌های قرآنی فعالیت‌های برجسته‌ای دارد.
 
 1. عبدالعزیز آل شیخ (Abdul Aziz Al-Sheikh)
@@ -718,7 +749,8 @@ class _MyWidgetState extends State<qariAbdulRahmanAlOssi> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری عبدالرحمن العوسی (Abdulrahman Al-Awsi) یکی از قاریان برجسته قرآن کریم از کشور عربستان سعودی است که به دلیل صدای دلنشین و تلاوت‌های زیبای خود شناخته می‌شود. او یکی از قاریان محبوب و تأثیرگذار در دنیای اسلام است و در بسیاری از کشورها به ویژه در جهان عرب، طرفداران زیادی دارد.
 
 زندگی‌نامه و تحصیلات:
@@ -787,7 +819,8 @@ class _salehState extends State<saleh> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری صالح بن عواد المغامسی (Saleh bin Awwad Al-Mughamsi) یکی از قاریان برجسته قرآن کریم از کشور عربستان سعودی است که به دلیل صدای خوش و تلاوت‌های زیبا و دقیق خود شناخته می‌شود. او همچنین یک عالم دینی برجسته و امام مسجد جامع قبا در مدینه منوره است و در زمینه‌های مختلف دینی، فقهی و قرآنی فعالیت‌های زیادی داشته است.
 
 زندگی‌نامه و تحصیلات:
@@ -858,7 +891,8 @@ class _ahmadState extends State<ahmad> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری احمد بن علی العحم یکی از قاریان برجسته قرآن کریم است که در دنیای اسلام شناخته شده است. با این حال، اطلاعات عمومی و دقیقی در دسترس درباره او نسبت به برخی از قاریان مشهور دیگر وجود ندارد، به خصوص از آنجا که نام او در مقایسه با قاریانی مانند ماهر المعیقلی، عبدالباسط عبدالصمد، و غیره در سطح بین‌المللی شناخته شده نیست. با این حال، برخی از ویژگی‌ها و اطلاعات کلی در مورد قاری احمد بن علی العحم به شرح زیر است:
 
 1. ویژگی‌های تلاوت قاری احمد بن علی العحم:
@@ -914,7 +948,6 @@ class _abdulMajeedState extends State<abdulMajeed> {
     }
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -932,7 +965,8 @@ class _abdulMajeedState extends State<abdulMajeed> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری عبدالمجید بن عبدالغفور مکه (Abdulmajid Makkah) یکی از قاریان قرآن کریم از کشور عربستان سعودی است که در دنیای اسلام به خاطر تلاوت‌های زیبا و دلنشینش شناخته شده است. اطلاعات دقیقی در مورد زندگی‌نامه و پیشینه او در منابع عمومی وجود ندارد، اما او به عنوان یک قاری مشهور در مراسم‌های مذهبی و محافل قرآنی حضور داشته و تلاوت‌های او در رسانه‌های مختلف اسلامی پخش می‌شود.
 
 ویژگی‌های تلاوت قاری عبدالمجید مکه:
@@ -1003,7 +1037,8 @@ class _abdulallahState extends State<abdulallah> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''اری عبدالله عواد الحهلی (Abdullah Awad Al-Hudhayfi) یکی از قاریان مشهور قرآن کریم از کشور عربستان سعودی است. او به عنوان یک قاری برجسته و استاد در تلاوت قرآن شناخته می‌شود و تلاوت‌های او به دلیل صدای دلنشین، تسلط بر تجوید و لحن زیبای قرآنی مورد تحسین قرار گرفته است. قاری عبدالله عواد الحهلی همچنین در بسیاری از مساجد مهم عربستان و در برخی از مراسم‌های بزرگ مذهبی حضور داشته است.
 
 زندگی‌نامه و تحصیلات:
@@ -1072,7 +1107,8 @@ class _qariSaudState extends State<qariSaud> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری سعود بن ابراهیم السربم (Saud Al-Sarim) یکی از قاریان برجسته قرآن کریم از کشور عربستان سعودی است که به‌خاطر تلاوت‌های زیبا و دلنشین خود شناخته می‌شود. این قاری، که در دنیای قرآن و تلاوت‌های قرآن شهرت زیادی دارد، به خصوص در کشورهای اسلامی شناخته شده است.
 
 زندگی‌نامه و تحصیلات:
@@ -1148,7 +1184,8 @@ class _mohammadState extends State<mohammad> {
               ],
             ),
           ),
-          Text(textAlign: TextAlign.right,
+          Text(
+            textAlign: TextAlign.right,
             '''قاری محمد قاری (Muhammad Qari) یکی از قاریان معروف قرآن کریم از عربستان سعودی است که به‌خاطر صدای دلنشین، تسلط بر تجوید و لحن زیبا شناخته می‌شود. او در محافل قرآنی و مراسم‌های مذهبی متعدد در عربستان سعودی و سایر کشورهای اسلامی حضور داشته و تلاوت‌های او به‌ویژه در مسجد الحرام در مکه مکرمه، در ایام حج و ماه رمضان، بسیار مورد توجه قرار می‌گیرد.
 
 ویژگی‌های تلاوت قاری محمد قاری:
@@ -1201,26 +1238,22 @@ class _shareState extends State<share> {
           width: 300,
           height: 50,
           child: ElevatedButton(
-              onPressed: () {
-                String share = 'https://www.google.com';
-                Share.share(share);
-              },
-              child: Text(
-                'اشتراک گذاری لینک',
-                style: TextStyle(color: Colors.blue),
-                
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.cyan,
-                foregroundColor: Colors.black
-              ),
-              ),
+            onPressed: () {
+              String share = 'https://www.google.com';
+              Share.share(share);
+            },
+            child: Text(
+              'اشتراک گذاری لینک',
+              style: TextStyle(color: Colors.blue),
+            ),
+            style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.cyan, foregroundColor: Colors.black),
+          ),
         ),
       ),
     );
   }
 }
-
 
 class slider extends StatefulWidget {
   const slider({super.key});
@@ -1237,19 +1270,26 @@ class _sliderState extends State<slider> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('بزرک کردن سایز متن',
-            style: TextStyle(fontSize: x,fontWeight: FontWeight.bold),),
-            SizedBox(height: 5,),
-            Slider(value: x, 
-            max: 100,
-            min: 0.0,
-            onChanged: (n){
-              setState(() {
-                x = n;
-              });
-            }),
-            SizedBox(height: 10,),
-             Text(
+            Text(
+              'بزرک کردن سایز متن',
+              style: TextStyle(fontSize: x, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Slider(
+                value: x,
+                max: 100,
+                min: 0.0,
+                onChanged: (n) {
+                  setState(() {
+                    x = n;
+                  });
+                }),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
               '${x.toStringAsFixed(0)}%', // تبدیل مقدار x به درصد
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
             ),
@@ -1259,4 +1299,3 @@ class _sliderState extends State<slider> {
     );
   }
 }
-
