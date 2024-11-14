@@ -55,14 +55,17 @@ class _splashState extends State<splash> {
             )),
             Text(
               'خوش آمدید',
-              style: TextStyle(fontSize: 30, color: Colors.blueGrey),
+              style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.black,
+                  fontWeight: FontWeight.bold),
             ),
             Text(
               'V 0.2.3',
               style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Colors.blueGrey),
+                  color: Colors.black),
             )
           ],
         ),
